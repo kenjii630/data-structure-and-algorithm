@@ -1,0 +1,15 @@
+O is the order of growth
+n is the length of the input
+
+    . Constant time o(1)
+        - if / else condition
+    . Linear time o(n)
+        - for loop
+    . Logarithmic time o(log n)
+    . Quadratic time o(n^2)
+        - nestest for loop
+    . cubic time o(n^3)
+    . Factorial time o(n!)
+    . Quasilinear Time O(n log n)
+
+# There are 3 cases of time complexity
