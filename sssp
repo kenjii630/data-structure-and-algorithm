@@ -1,0 +1,52 @@
+stand for Single source shortest paths
+
+    *algorithm
+        *Dijkstra = spare graphs with no negative edges
+
+    *dynamic
+        bellman-ford = negative weight edges
+        *floyd warshall : using adjacency matrix
+        *johnson
+
+    # The different between sssp and mst
+        #
+
+    # The comparison Dijkstra ,BFS ,DFS
+
+        # DFS can also find the shortest path but it not optimal
+        # BFS & DFS both are the traversal algorithm which visit all vertices and edges of a graph.
+        # BFS will not work on weighted graph
+        # BFS reach a vertex with minimum number of edges from a source vertex
+        # Bfs using queue and consider finding the shortest path by observe the by minimum node
+        #
+
+        # Dijkstra using priority queue or heap (serve the high priority)
+        # Dijkstra using relaxing edge
+            relaxing edge = Infinity is the highest cost we could have,
+            so we want to reduce "relax" that to a lower cost if possible.
+            To do that we compute the cost of a path (e.g. a or ab) between the starting node and another node,
+            and update the path-cost for the node, if that path cost is less.
+        # Dijkstra can implement both directed and undirected
+        # it doesn't work on negative weight and only requires global information
+
+
+        # Kruskal used priority queue and union find
+        # Kruskal fail for directed graph
+
+        # bellman ford can work on negative weight and only work for directed graphs
+        # It only requires local information
+
+        # floyd warshall is used to find all pair shortest path problem from a given weighted graph.
+# The main different type of data structure:
+
+    .Stack - Depth-first search ((O(E+V)))
+    .Queue - Breadth-first search (O(E+V))
+    .Priority Queue - Dijkstra’s algorithm (O(E+V log V))
+    .Bellman-Ford looping iterates over every edge V times each, en
+    ensuring that all negative edge weights.
+
+
+
+# Closed list is a collection of all expanded nodes, mean that those are nodes that were already searched,
+    to prevented the search from visiting nodes again and again.
+

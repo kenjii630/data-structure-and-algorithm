@@ -1,0 +1,6 @@
+spanning tree
+
+n stand for node
+finding the possible spanning tree = n*(n-2)
+
+Kruskal and prim
