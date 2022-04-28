@@ -1,0 +1,7 @@
+                        Definition
+Refers to how the information appears to a program
+Queue = first in first out []
+Stack = last in first out []
+graph = used adjacency list or adjacency matrix to presentation
+tree = acyclic graph
+hashtable =

@@ -1,0 +1,11 @@
+            The definition
+Refer to anything pertaining to hardware, or Refer to the actual organization of data on a storage device.
+            array / list = []
+is statically
+can be create in either both Heap and Stack
+            linked list = []
+is dynamically
+matrix = [[]]
+can only create in Heap
+
+How the memory is organized or how the memory is allocated.

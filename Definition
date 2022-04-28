@@ -1,0 +1,23 @@
+Data structure:
+    primitive and non-primitive
+        primitives:
+            # int
+            # string
+            # boolean
+            # float
+        non-primitive:
+            linear and non-linear
+                linear:
+                    static and dynamic
+                        static:
+                            * array
+                        dynamic:
+                            * linked list
+                            * queue
+                            * stack
+
+                non-linear:
+                    * graph (cyclic)
+                    * tree  (acyclic)
+
+https://www.javatpoint.com/data-structure-introduction
